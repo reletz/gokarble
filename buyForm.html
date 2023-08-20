@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy The Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title"><a href="index.html">Gokarble</a></h1>
+        <nav class="anjay">
+            <a href="index.html">Home</a>
+            <a href="buyForm.html">Buy Games</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a>
+            <a href="https://wa.me/628123543448" target="_blank">Whatsapp</a>
+        </nav>
+    </header>
+    <main class="formContainer">
+        <h1 class="title">Buy our games now!</h1>
+        <img src="images/Checklist.jpg" alt = "">
+        <form>
+            <label>Full Name</label>
+            <input type = "text">
+            <label>Email</label>
+            <input type = "email">
+            <label>Phone Number</label>
+            <input type = "number">
+            <label>Game(s)</label>
+            <select class ="choose" name = "Game" id="game">
+                <option value="100000">Monster Slash | Rp100.000,-</option>
+                <option value="100000">Hiroshima Launch | Rp100.000,-</option>
+                <option value="47000">Poke Hunt | Rp47.000,-</option>
+                <option value="230000">Buy 2 FREE Poke Hunt | Rp230.000,-</option>
+            </select>
+            <label>How Many Copies?</label>
+            <input id="num_of_copies" type = "number">
+        </form>
+        <h3> Total Payment : Rp<span id="total"></span></h3>
+        <button onclick="beliGame()"> Process Order</button>
+    </main>
+    <footer>
+        <h5><a href="index.html">Gokarble</a></h5>
+        <p>Copyright &copy 2022, by GoGamesGo. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

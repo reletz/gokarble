@@ -1,0 +1,259 @@
+h1{
+    color:#F2F7A1;
+    font-size: 60px;
+    font-style:italic ;
+    text-align: left;
+}
+
+.Jumbotron{
+    background-color:#453C67;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Jumbotron img{
+    width: 300px;
+    margin: 50px;
+}
+.Jumbotron h3, p{
+    color: white;
+}
+
+.main-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.package-container {
+    margin: 20px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.package-container p, h3{
+    color:black;
+}
+
+.package-container h4{
+    color:black;
+    font-style: italic;
+}
+
+.package-container img {
+    width: 300px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    background-color: #46c2cb;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border : none;
+}
+
+.right{
+    float : right;
+}
+
+.title{
+    font-style: normal;
+    font-size: 30px;
+    color: #453C67;
+    display : flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table,th,td,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px; 
+}
+
+tr:hover{
+    background-color: #F2F7A1;
+}
+
+th {
+    background-color: #6D67E4;
+    color: white;
+}
+
+.table{
+    display : flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table img{
+    width : 200px;
+}
+
+header {
+    background-color : #46C2CB;
+    color :#F2F7A1;
+    position : relative;
+    top :0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display : flex;
+}
+
+.header-title{
+    text-align: left;
+    color : white;
+    margin: 14px;
+    font-size: 18px;
+}
+
+.anjay{
+    position: absolute;
+    right : 0;
+    display: flex;
+}
+
+.anjay a{
+    text-decoration: none;
+    font-size: 15px;
+    color : white;
+    padding: 15px;
+    float: left;
+}
+
+footer {
+    color : white;
+    text-align: center;
+    background-color: #6D67E4;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 15px;
+    font-style:italic ;
+}
+
+h5 {
+    font-size: 20px;
+    font-style:italic ;
+}
+
+.anjay a:hover {
+    background-color: #6D67E4;
+}
+
+.anjay a:active {
+    color: yellow;
+}
+
+button:hover {
+    cursor : pointer;
+    background-color: rgb(41,159,120);
+}
+
+.package-container:hover {
+    background-color:rgba(0, 0, 0, 0.199)
+}
+
+.formContainer {
+    text-align: center;
+}
+.formContainer img {
+    width: 300px;
+}
+
+form {
+    text-align: left;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.choose {
+    width:100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+option {
+    font-size: 15px;
+}
+
+input:hover {
+    cursor : auto;
+    background-color: #72e6ee70;
+}
+
+.referLink {
+    color:black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.desc{
+    text-align: left;
+}
+
+.about {
+    display:"block";
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.about h1 {
+    text-align: center;
+    color: #46c2cb;
+}
+
+.about h3 {
+    text-align: center;
+    color: #46c2cb;
+}
+.about img {
+    width : 300px;
+}
+
+.header-title a,:visited,link {
+    color : white;
+    text-decoration: none;
+}
+
+h5 a,:visited,link {
+    color : white;
+    text-decoration: none;
+}
+
+.about p{
+    color: black;
+}
+
+.referLink a,:link{
+    color: black;
+}

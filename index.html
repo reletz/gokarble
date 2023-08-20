@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=”UTF-8”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokarble!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title"><a href="index.html">Gokarble</a></h1>
+        <nav class="anjay">
+            <a href="index.html">Home</a>
+            <a href="buyForm.html">Buy Games</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a>
+            <a href="https://wa.me/628123543448" target="_blank">Whatsapp</a>
+        </nav>
+    </header>
+    <main>
+        <div class="Jumbotron">
+            <div>
+                <h1>Gokarble</h1>
+                <h3> Play whenever, whichever you want!</h3>
+                <p> Website created by Naufarrel </p>
+            </div>
+            <div>
+                <img src="images/logoGame.png" alt="Logo">
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="package-container">
+                <!--1st package content-->
+                <img src="images/dmc.jpg" alt="Sakura">
+                <h3>Monster Slash</h3>
+                <p>Hunt the Monsters and slash them!</p>
+                <h4>Single-Player</h4>
+                <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+            </div>
+
+            <div class="package-container">
+                <!--2nd package content-->
+                <img src="images/FO76.png" alt="Hiroshima">
+                <h3>Hiroshima Launch</h3>
+                <p>Launch it to them 'til you win!</p>
+                <h4>Single-Player</h4>
+                <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+            </div>
+
+            <div class="package-container">
+                <!--3rd package content-->
+                <img src="images/mHunt.jpg" alt="Traveler">
+                <h3>Poke Hunt</h3>
+                <p>Collect your own monsters, fight with others!</p>
+                <h4>Multi-Player, Co-Op</h4>
+                <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+            </div>
+        </div>
+
+        <h1 class="title">Game Details</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Name</th>
+                    <th>Description and Contents</th>
+                    <th>Price</th>
+                    <th>Buy It</th>
+                </tr>
+                <tr>
+                    <td><img src="images/dmc.jpg" alt = "Monster Slash"></td>
+                    <td>Monster Slash</td>
+                    <td class = "desc">
+                        The monsters are here! Destroy them and collect your prize!<br><br>
+                        <i>Package includes :<br></i>
+                        1 (one) copy of "Monster Slash"<br>
+                        1 (one) tutorial file<br>
+                    </td>
+                    <td>Rp.100.000,-</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Now</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/FO76.png" alt = "Hiroshima Launch"></td>
+                    <td>Hiroshima Launch</td>
+                    <td class = "desc">
+                        Simulate your own reality of nuking!<br><br>
+                        <i>Package includes :<br></i>
+                        1 (one) copy of "Hiroshima Launch"<br>
+                        1 (one) tutorial file<br>
+                    </td>
+                    <td>Rp.100.000,-</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Now</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/mHunt.jpg" alt = "Poke Hunt"></td>
+                    <td>Poke Hunt</td>
+                    <td class = "desc">
+                        Collect Poke Monsters, fight with others!<br><br>
+                        <i>Package includes :<br></i>
+                        1 (one) copy of "Poke Hunt"<br>
+                        1 (one) tutorial file<br>
+                    </td>
+                    <td>Rp.47.000,-</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Now</button></td>
+                </tr>
+                <tr>
+                    <td><img src="images/all3.jpg" alt = "All Three"></td>
+                    <td>Buy All of Them (Best Offer!)</td>
+                    <td class = "desc">
+                        Buy ALL THREE with discounts and many benefits!<br><br>
+                        <i>Package includes :<br></i>
+                        1 (one) copy of "Monster Slash"<br>
+                        1 (one) copy of "Hiroshima Launch"<br>
+                        1 (one) copy of "Poke Hunt"<br>
+                        3 (three) tutorial file for each games<br>
+                        3 (three) DLCs for each games<br>
+                    </td>
+                    <td>Rp.230.000,-</td>
+                    <td><button onclick="goToBuy()" type="button">Buy Now</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class = "about"><h1>Poke Hunt Trailer</h1></div>
+        <div class="main-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8CF_m4cPs2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <h5><a href="index.html">Gokarble</a></h5>
+        <p>Copyright &copy 2022, by GoGamesGo. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
