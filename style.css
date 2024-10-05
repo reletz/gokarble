@@ -1,12 +1,12 @@
 h1{
-    color:#F2F7A1;
+    color:#FFFFFF;
     font-size: 60px;
     font-style:italic ;
     text-align: left;
 }
 
 .Jumbotron{
-    background-color:#453C67;
+    background-color:#2BEA99;
     padding: 50px 100px;
     display: flex;
     flex-direction: row;
@@ -73,10 +73,11 @@ button {
     text-align: center;
 }
 
-table,th,td,tr,td{
-    border: 1px solid black;
+th,tr,td{
     border-collapse: collapse;
-    padding: 10px; 
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 tr:hover{
@@ -99,7 +100,7 @@ th {
 }
 
 header {
-    background-color : #46C2CB;
+    background-color : #6CEBE9;
     color :#F2F7A1;
     position : relative;
     top :0px;
@@ -116,13 +117,13 @@ header {
     font-size: 18px;
 }
 
-.anjay{
+.navbar{
     position: absolute;
     right : 0;
     display: flex;
 }
 
-.anjay a{
+.navbar a{
     text-decoration: none;
     font-size: 15px;
     color : white;
@@ -133,7 +134,7 @@ header {
 footer {
     color : white;
     text-align: center;
-    background-color: #6D67E4;
+    background-color: #4DEBD2;
     padding: 10px;
     margin-top: 50px;
 }
@@ -148,11 +149,11 @@ h5 {
     font-style:italic ;
 }
 
-.anjay a:hover {
+.navbar a:hover {
     background-color: #6D67E4;
 }
 
-.anjay a:active {
+.navbar a:active {
     color: yellow;
 }
 
@@ -256,4 +257,34 @@ h5 a,:visited,link {
 
 .referLink a,:link{
     color: black;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow:   
+ 0 0 10px rgba(0, 0, 0,   
+ 0.3);
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.popup.show {
+    opacity: 1;
+}
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #46c2cb;
+    border: none;
+    cursor: pointer;
 }

@@ -12,20 +12,21 @@
 <body>
     <header>
         <h1 class="header-title"><a href="index.html">Gokarble</a></h1>
-        <nav class="anjay">
+        <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="buyForm.html">Buy Games</a>
             <a href="aboutUs.html">About Us</a>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a>
-            <a href="https://wa.me/628123543448" target="_blank">Whatsapp</a>
+            <a href="https://wa.me/628888888121211111" target="_blank">Whatsapp</a>
         </nav>
     </header>
     <main>
         <div class="Jumbotron">
             <div>
                 <h1>Gokarble</h1>
-                <h3> Play whenever, whichever you want!</h3>
-                <p> Website created by Naufarrel </p>
+                <h3> Play whenever, whichever you want! In this website</h3>
+                <p> Here, you can select and buy the games that you want! Don't worry if you think this is expensive, because we already set the price low! At the time, we already have 3 games, and WE WILL have <b>MOREEE</b> later!</p>
+                <p> A Website by Nau</p>
             </div>
             <div>
                 <img src="images/logoGame.png" alt="Logo">
@@ -39,6 +40,16 @@
                 <p>Hunt the Monsters and slash them!</p>
                 <h4>Single-Player</h4>
                 <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+                <button onclick="togglePopup()">More</button>
+                <div id="myPopup" class="popup">
+                    <div class="popup-content">
+                        <h3>A Revolutionary Game!</h3>
+                        <p>For those who likes Souls-like games, this is the one for you!</p>
+                        <p></p>
+                        <p>Mininum Spec: Windows 8 and above, i3-3456 2.4 GHz, 4GB Memory</p>
+                    </div>
+                    <button class="close-btn">Close</button>
+                </div>
             </div>
 
             <div class="package-container">
@@ -48,6 +59,16 @@
                 <p>Launch it to them 'til you win!</p>
                 <h4>Single-Player</h4>
                 <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+                <button onclick="togglePopup1()">More</button>
+                <div id="1myPopup" class="popup">
+                    <div class="popup-content">
+                        <h3>A Thrilling Games!</h3>
+                        <p>Fallout players, beware!</p>
+                        <p></p>
+                        <p>Mininum Spec: Windows 8 and above, i3-3456 2.4 GHz, 4GB Memory</p>
+                    </div>
+                    <button class="close-btn1">Close</button>
+                </div>
             </div>
 
             <div class="package-container">
@@ -57,6 +78,16 @@
                 <p>Collect your own monsters, fight with others!</p>
                 <h4>Multi-Player, Co-Op</h4>
                 <button class="right" onclick="goToBuy()" type="button">Buy Now</button>
+                <button onclick="togglePopup2()">More</button>
+                <div id="2myPopup" class="popup">
+                    <div class="popup-content">
+                        <h3>Games of The Century!</h3>
+                        <p>Collect all the games by yourself! Lots of Challenge!</p>
+                        <p></p>
+                        <p>Mininum Spec: Windows 8 and above, i3-3456 2.4 GHz, 4GB Memory</p>
+                    </div>
+                    <button class="close-btn2">Close</button>
+                </div>
             </div>
         </div>
 
@@ -130,7 +161,7 @@
     </main>
     <footer>
         <h5><a href="index.html">Gokarble</a></h5>
-        <p>Copyright &copy 2022, by GoGamesGo. All Rights Reserved.</p>
+        <p>Copyright &copy 2024, by GoGamesGo. All Rights Reserved.</p>
     </footer>
 </body>
 <script src="script.js"></script>
